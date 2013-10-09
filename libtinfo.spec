@@ -1,7 +1,7 @@
 %define dont_symlinks_libs 1
 
-%define major		5
-%define libname		%mklibname tinfo %{major}
+%define major 5
+%define libname %mklibname tinfo %{major}
 
 Summary:	Virtual package for libtinfo library
 Name:		libtinfo

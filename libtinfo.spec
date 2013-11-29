@@ -6,7 +6,7 @@
 Summary:	Virtual package for libtinfo library
 Name:		libtinfo
 Version:	5
-Release:	1
+Release:	2
 License:	MIT
 Group:		System/Libraries
 Url:		http://www.gnu.org/software/ncurses/ncurses.html
@@ -41,5 +41,5 @@ Virtual package for libtinfo library.
 %install
 mkdir -p %{buildroot}%{_libdir}
 pushd %{buildroot}%{_libdir}
-ln -s %{_libdir}/libncurses.so.%{major} libtinfo.so.%{major}
+ln -s /%{_lib}/libncurses.so.%{major} libtinfo.so.%{major}
 popd

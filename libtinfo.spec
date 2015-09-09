@@ -1,12 +1,12 @@
 %define dont_symlinks_libs 1
 
-%define major 5
+%define major 6
 %define libname %mklibname tinfo %{major}
 
 Summary:	Virtual package for libtinfo library
 Name:		libtinfo
-Version:	5
-Release:	10
+Version:	6
+Release:	1
 License:	MIT
 Group:		System/Libraries
 Url:		http://www.gnu.org/software/ncurses/ncurses.html

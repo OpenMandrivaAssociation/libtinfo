@@ -9,7 +9,7 @@ Version:	6
 Release:	4
 License:	MIT
 Group:		System/Libraries
-Url:		http://www.gnu.org/software/ncurses/ncurses.html
+Url:		https://www.gnu.org/software/ncurses/ncurses.html
 
 %description
 Virtual package for libtinfo library.
